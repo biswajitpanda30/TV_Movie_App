@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
+}
+
+img {
+    max-width: 200%;
+    border: 2px coral solid;
+    float: left;
+}
+
+/*Side Bar or Nav Bar*/
+
+.sidebar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+
+}
+
+.sidebar h2 {
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    content: "";
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+li.selected {
+    border: 1px solid coral;
+    outline-width: thick;
+    padding: 2px 2px;
+}
+
+.sidebar a {
+    color: #D2B48C;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    outline-width: 1px;
+    outline-color: chocolate;
+}
+
+.sidebar ul li a:active {
+    color: #ffffff;
+}
+
+
+.sidebar ul li a:focus {
+    outline-color: chocolate;
+}
+
+/*Displaying posters of the Movie*/
+
+#movie_grid {
+    padding: 100px 0;
+}
+
+.movie_list {
+    background-color: #e3e3e3;
+}
+
+.eachMovie {
+    background-color: black;
+    color: white;
+}
+
+/*Movie Details in Modal Window*/
+
+.btnModal {
+    background-color: black;
+    margin-bottom: 35px;
+    border: black;
+}
+
+.come-from-modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.come-from-modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.modal-content {
+    padding: 2px;
+    min-width: 656px;
+    background-color: #000000
+}
+
+.movieName {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+}
+
+.text {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.moviePosterInModal {
+    padding: 12px;
+}
+
+.btn-primary1 {
+    background: sandybrown;
+    color: #ffffff;
+    border: 1px solid #5EADFF;
+    margin-right: 5px;
+}
+
+.btn-primary2 {
+    background: transparent;
+    color: #ffffff;
+}
+
+.overview {
+    text-align: top;
+    padding: 0 0;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
